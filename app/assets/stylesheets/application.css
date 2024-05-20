@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+.pagenew {
+  background-color: aquamarine;
+  background: rgb(60, 222, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(60, 222, 224, 1) 0%,
+    rgba(57, 162, 154, 1) 100%
+  );
+}
+
+.letters {
+  font-weight: bold;
+  font-size: medium;
+  letter-spacing: 0.2rem;
+
+}
+
+.formulaire {
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}

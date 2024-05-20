@@ -1,0 +1,22 @@
+
+<div class="pagenew">
+  <h1>Games#new</h1>
+  <p>Find me in app/views/games/new.html.erb</p>
+
+    <div class="letters fs-2">
+    <%= @letters %>
+    </div>
+    <br>
+
+  <div class="formulaire">
+    <form method="post" action="/score" data-turbo="false">
+        <input type="text" name="whichletter" placeholder="tape your word here">
+        <input type="submit" value="GROS BOUTON">
+        <%= hidden_field_tag :tableau, @letters %>
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        <br>
+        <br>
+        <br>
+     </form>
+  </div>
+</div>
